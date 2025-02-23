@@ -42,8 +42,8 @@ class MyCustomInputTheme extends ThemeExtension<MyCustomInputTheme> {
       backgroundColor: Color.lerp(backgroundColor, other.backgroundColor, t),
       labelColor: Color.lerp(labelColor, other.labelColor, t),
       inputTextColor: Color.lerp(inputTextColor, other.inputTextColor, t),
-      inputFontSize: null,
-      labelFontSize: null,
+      inputFontSize: inputFontSize,
+      labelFontSize: labelFontSize,
     );
   }
 
